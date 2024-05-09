@@ -260,12 +260,13 @@ espacio de direccionamiento tanto como sea posible.
 b)
 Dada la siguiente dirección de red: 172.25.0.0/16, dividala en
 subredes de las siguientes capacidades:
-* 2 subredes (A y B) de 1000 hosts
-* Una subred C de 2000 hosts
-* Una subred D de 5 hosts
-* Una subred E de 60 hosts
-* Una subred F de 70 hosts
-* Una subred G de 15 enlaces de 2 hosts por enlace
+
+- 2 subredes (A y B) de 1000 hosts
+- Una subred C de 2000 hosts
+- Una subred D de 5 hosts
+- Una subred E de 60 hosts
+- Una subred F de 70 hosts
+- Dos subredes de 2 hosts
 
 | subred | direccion de red /prefijo | 1er IPv4 | ultima IPv4 | direccion de broadcast | #hosts |
 | ------ | ------------------------- | -------- | ----------- | ---------------------- | ------ |
@@ -279,10 +280,11 @@ subredes de las siguientes capacidades:
 
 c) Dada la red 192.168.12.0/24, desarrolle un esquema de direccionamiento
 usando VLSM que cumpla los siguientes requerimientos:
-* Una subred de 60 hosts para la Red de Mercadeo
-* Una subred de 80 hosts para la Red de Ventas
-* Una subred de 20 hosts para la Red de Administrativos
-* Cuatro subredes de 2 hosts para los enlaces entre enrutadores
+
+- Una subred de 60 hosts para la Red de Mercadeo
+- Una subred de 80 hosts para la Red de Ventas
+- Una subred de 20 hosts para la Red de Administrativos
+- Dos subredes de 2 hosts para los enlaces entre enrutadores
 
 | subred | direccion de red /prefijo | 1er IPv4 | ultima IPv4 | direccion de broadcast | #hosts |
 | ------ | ------------------------- | -------- | ----------- | ---------------------- | ------ |
@@ -299,14 +301,14 @@ Vamos a crear una red para el aula. Emplearemos la red privada 172.16.0.0, con m
 255.255.0.0. Las especificaciones son las siguientes:
 
 - Habrán 4 subredes con un máximo de 14 hosts cada una, a las que llamaremos mesanet1,
-mesanet2, mesanet3 y mesanet4.
+  mesanet2, mesanet3 y mesanet4.
 - Habrá una subred que se empleará para los enlaces de los routers que conectarán las subredes
-anteriores. Esta subred tendrá un máximo de 6 hosts, dedicados a enlaces entre routers.
+  anteriores. Esta subred tendrá un máximo de 6 hosts, dedicados a enlaces entre routers.
 - Reserva otra red más, que pueda utilizarse como zona donde ubicar servidores atacados desde el
-exterior.
+  exterior.
 - Considera también que cada una de las subredes mesanet, deberá contar en un futuro con una
-DMZ (zona desmilitarizada), que incluya servicios empleados por dicha subred y ocasionalmente
-por las otras mesanets. Por ello debes reservar la red correspondiente.
+  DMZ (zona desmilitarizada), que incluya servicios empleados por dicha subred y ocasionalmente
+  por las otras mesanets. Por ello debes reservar la red correspondiente.
 
 No sabemos de que modo va a crecer la red del aula, así que debes tener en cuenta esto en tu
 diseño.
@@ -318,7 +320,6 @@ PARTE 3:
 Contrasta los diseños de red con los compañeros de las otras mesas del aula. Acuerda con ellos las
 subredes que vais a utilizar en cada una de las mesas.
 
-
 | subred | direccion de red /prefijo | 1er IPv4 | ultima IPv4 | direccion de broadcast | #hosts |
 | ------ | ------------------------- | -------- | ----------- | ---------------------- | ------ |
 |        |                           |          |             |                        |        |
@@ -328,8 +329,6 @@ subredes que vais a utilizar en cada una de las mesas.
 |        |                           |          |             |                        |        |
 |        |                           |          |             |                        |        |
 |        |                           |          |             |                        |        |
-
-
 
 ### Bibliografía
 
