@@ -168,4 +168,12 @@ We welcome contributions from the community! If you're interested in contributin
 
 ## Resources
 
-
+[Prototype design with figma](https://www.figma.com/design/2AIhL8xYP1tukaVJLYjffN/Networking?node-id=4-4&t=riZ9YUQnWnersYQ5-0)
+[icons svg](https://www.manypixels.co/gallery)
+[colors palete](https://coolors.co/)
+[images unplash](https://unsplash.com/s/photos/computer)
+[images reshot](https://www.reshot.com/free-svg-icons/network/)
+[images free pick](https://www.freepik.com/)
+[images pexels](https://www.pexels.com/)
+[images pixabay](https://pixabay.com/)
+[gradiente](https://gradients.app/es/newmesh)
